@@ -216,6 +216,7 @@ header > .center:last-child {
 }
 .flex,.flex1{
     flex-direction: column;
+   
 }
 .gap-10,.gap1{
     gap:4rem
@@ -227,18 +228,19 @@ header > .center:last-child {
 .font{
     font-size: 28px;
 }
-/* .buts{
+.buts{
     flex-direction: column;
     align-items: stretch;
     width: 80%;
     gap: 12px;
+    margin-left: 40px;
    
 }
 .btn{
     width: 100%;
 }
 .width,.width1{
-    width: 100%;
+    width: 80%;
     max-width: 100%;
 }
 .space1{
@@ -248,6 +250,7 @@ header > .center:last-child {
 .hight{
     height: auto;
     padding: 24px 0;
+   
 }
 .flexst{
     justify-content: flex-start;
@@ -255,7 +258,21 @@ header > .center:last-child {
 .spacepg{
     justify-content: space-between;
     gap: 1.5rem;
-} */
+    margin-left: 45px;
+}
+.marg{
+     justify-content: space-between;
+    gap: 1.5rem;
+    margin-left: 50px;
+}
+.photo{
+     margin-left: 40px;
+}
+.left{
+     margin-left: 100px;
+     justify-content: space-between;
+     gap: 1.5rem;
+}
 
 
 }
