@@ -170,7 +170,95 @@ footer{
 .width1{
     width: 310px;
 }
+ 
+.menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 26px;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+ .container{width: 145vw;}
+ .space { gap: 4rem;}
 
+ header { 
+    height: auto;
+    padding: 16px 0;
+
+ }
+ header.flex {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+ }
+ .menu-btn{
+    display: block;
+
+ }
+ nav {
+    display: none;
+    width: 100%;
+}
+nav .open{
+    display: block;
+
+}
+.navbar{
+    width: 100%;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px 0;
+}
+header > .center:last-child {
+    width: 100%;
+    margin-top: 12px;
+}
+.flex,.flex1{
+    flex-direction: column;
+}
+.gap-10,.gap1{
+    gap:4rem
+}
+.header1{
+    font-size: 2rem;
+
+}
+.font{
+    font-size: 28px;
+}
+/* .buts{
+    flex-direction: column;
+    align-items: stretch;
+    width: 80%;
+    gap: 12px;
+   
+}
+.btn{
+    width: 100%;
+}
+.width,.width1{
+    width: 100%;
+    max-width: 100%;
+}
+.space1{
+    margin-left: 0;
+    margin-right: 0;
+}
+.hight{
+    height: auto;
+    padding: 24px 0;
+}
+.flexst{
+    justify-content: flex-start;
+}
+.spacepg{
+    justify-content: space-between;
+    gap: 1.5rem;
+} */
+
+
+}
 
  
 
